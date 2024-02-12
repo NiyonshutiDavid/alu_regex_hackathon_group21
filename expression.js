@@ -11,7 +11,7 @@ const ipAddressPattern = /\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b/g;
 
 const movieTitles = stringResponse.match(movieTitlePattern);
 const songLyrics = stringResponse.match(songLyricsPattern);
-const twitterUsernames = stringResponse.match(twitterUsernamePattern);
+const twitterUsernames = stringResponse.match(twitterUsernamePatternt);
 const isbnNumbers = stringResponse.match(isbnPattern);
 const jokes = stringResponse.match(jokePattern);
 const episodeTitles = stringResponse.match(episodeTitlePattern);
